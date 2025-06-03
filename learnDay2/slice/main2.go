@@ -17,4 +17,16 @@ func main() {
 	fmt.Printf("slice1 len = %d vlaue = %v\n", len(slice1), slice1)
 	fmt.Printf("slice2 len = %d vlaue = %v\n", len(slice2), slice2)
 	fmt.Printf("slice3 len = %d vlaue = %v\n", len(slice3), slice3)
+
+	if slice1 == nil {
+		fmt.Println("slice为空")
+	} else {
+		fmt.Printf("slice不为空")
+	}
+
+	if len(slice1) == 0 {
+		fmt.Println("slice为空")
+	} else {
+		fmt.Printf("slice不为空")
+	}
 }
